@@ -96,7 +96,7 @@ const like: OperatorFunction = value => {
   }
 
   return {
-    $regex: new RegExp('(?!.*)', 'i'),
+    $regex: new RegExp('(?!)', 'i'),
   }
 }
 
